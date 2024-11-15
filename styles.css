@@ -1,0 +1,186 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav{
+    font-size: 46px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 1em;
+}
+
+
+#menu {
+    padding: 1em;
+}
+
+
+.titles {
+    background: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+
+.titles a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    background-color: #ff4f5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+section h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    color: #333;
+}
+
+form input[type="text"] {
+    padding: 0.5em;
+    width: 60%;
+    margin-right: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.game-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.card {
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 75%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#reseñas {
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+    background-color: #eef2f5;
+}
+
+.reseñas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.reseñas-grid p {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0.5em;
+}
+
+
+#contacto {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #f7f9fc;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+}
+
+#contacto label {
+    font-weight: bold;
+}
+
+#contacto input, #contacto textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contacto button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+
